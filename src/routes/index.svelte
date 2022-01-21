@@ -17,7 +17,7 @@
 
 <style>
     .index {
-        margin: 3rem auto;
+        margin: 3rem;
         display: block;
         color: brown;
     }
