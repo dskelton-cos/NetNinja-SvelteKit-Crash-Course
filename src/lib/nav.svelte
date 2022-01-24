@@ -18,8 +18,8 @@
               Layouts
             </a>
   
-            <a href="/" class="text-base font-medium text-white hover:text-indigo-50">
-              Docs
+            <a href="/loading" class="text-base font-medium text-white hover:text-indigo-50">
+              Loading
             </a>
   
             <a href="/" class="text-base font-medium text-white hover:text-indigo-50">
