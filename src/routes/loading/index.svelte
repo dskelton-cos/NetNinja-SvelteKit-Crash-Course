@@ -30,6 +30,7 @@
 <Title
   title="Loading"
   intro="A load function runs both during server-side rendering and in the client, and allows you to get data for a page without (for example) showing a loading spinner and fetching data in onMount."
+  subTitle="Prefetching data"
 />
 
 <!-- This example requires Tailwind CSS v2.0+ -->
@@ -45,7 +46,7 @@
           />
           <div class="flex-1 space-y-1">
             <div class="flex items-center justify-between">
-              <h3 class="text-sm font-medium"><a href={`/loading/${post.id}`}>{post.title}</a></h3>
+              <h3 class="text-sm font-medium"><a sveltekit:prefetch href={`/loading/${post.id}`}>{post.title}</a></h3>
               <p class="text-sm text-gray-500">{post.id}</p>
             </div>
             <p class="text-sm text-gray-500">{post.body}</p>

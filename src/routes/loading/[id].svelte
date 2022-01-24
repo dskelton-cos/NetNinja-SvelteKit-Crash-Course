@@ -12,8 +12,10 @@
     }
 
     return {
-      status: res.status,
-      error: new Error(`Could not fetch the post`),
+      // status: res.status,
+      // error: new Error(`Could not fetch the post`),
+      status: 301,
+      redirect: '/loading'
     };
   }
 </script>
