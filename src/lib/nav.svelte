@@ -14,8 +14,8 @@
               Routing
             </a>
   
-            <a href="/guides" class="text-base font-medium text-white hover:text-indigo-50">
-              Guides
+            <a href="/layouts" class="text-base font-medium text-white hover:text-indigo-50">
+              Layouts
             </a>
   
             <a href="/" class="text-base font-medium text-white hover:text-indigo-50">

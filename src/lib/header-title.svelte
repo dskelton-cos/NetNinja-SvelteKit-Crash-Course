@@ -1,7 +1,7 @@
 <script>
-  export let title = "Take control of your team";
-  export let subTitle = "sub title";
-  export let intro = "Svelte";
+  export let title = "Default title";
+  export let subTitle = "Default sub title";
+  export let intro = "Default intro";
 </script>
 
 <div class="bg-white">

@@ -98,7 +98,7 @@
   
                 <li>
                   <a href="/" class="text-base text-gray-500 hover:text-gray-900">
-                    Guides
+                    layouts
                   </a>
                 </li>
   
