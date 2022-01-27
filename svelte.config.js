@@ -1,8 +1,19 @@
 import adapter from '@sveltejs/adapter-auto';
+import path from 'path'
+import houdini from 'houdini-preprocess'
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
+
+	preprocess: [houdini()],
 	kit: {
+		vite: {
+            resolve: {
+                alias: {
+                    $houdini: path.resolve('.', '$houdini')
+                }
+            }
+        },
+		
 		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
